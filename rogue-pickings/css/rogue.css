@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+header {
+    height: 115px;
+    border-bottom: solid 3px #77a466;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0 auto;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 48px 0;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+.top-section, .bottom-section {
+    clear: both;
+    margin: 0 auto;
+}
+
+.hero-image {
+    float: left;
+    height: auto;
+}
+
+.hero-image img {
+    border-bottom: solid 3px #77a466;
+}
+
+.welcome {
+    height: auto;
+    float: left;
+}
+
+.welcome h3 {
+    color: #77a466;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.welcome p {
+    line-height: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0;
+}
+
+.section-one {
+    border-left: 1px solid #dedbdc;
+}
+
+.section-one, .section-two, .section-three {
+    width: 398px;
+    float: left;
+    height: 210px;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-one h4 {
+    padding: 10px 20px;
+}
+
+.section-two, .section-three {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.section-two h4, .section-three h4 {
+    padding: 10px 20px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px 20px;
+    color:#77a466;
+}
+
+.reviews {
+	color: #000000;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+footer {
+	height: 50px;
+	border-top: 1px solid #dedbdc;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}

@@ -243,6 +243,7 @@ footer .social-icons{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 50px;
 }
 
 footer .social-icons p{
@@ -253,7 +254,7 @@ footer .social-icons p{
   width: 40px;
   height: 40px;
   background-color: #fff;
-}
+  }
 
 footer .social-icons p a{
   color: #005e80;
@@ -303,7 +304,7 @@ footer .copyright {
   background: url(../img/background-laptop.jpg);
   background-size: cover;
   background-position: cover;
-  min-height: 400px;
+  min-height: 250px;
 }
 
 .hero-area h2{
@@ -482,6 +483,8 @@ header nav ul{
   margin: 0;
   font-size: 4em;
   line-height: 1;
+  padding-top: 90px;
+  padding-left: 45px;
 }
 
 /*ABOUT*/
@@ -516,9 +519,9 @@ header nav ul{
 
 .portfolio-projects{
   display: flex;
-  align-items: space-between;
+  align-items: center;
   flex-flow: row wrap;
-  width: 90%;
+  width: 100%;
 }
 
 footer .content-wrapper{
@@ -550,7 +553,7 @@ footer h3{
 
 
 footer .social-icons{
-  width: 12.5em;
+  width: 9em;
   justify-content: space-between;
 }
 
@@ -584,12 +587,13 @@ footer .copyright{
     }
 
     .hero-area{
-      min-height: 700px;
+      min-height: 600px;
     }
 
     .hero-area h2{
       width: 80%;
       font-size: 4.5em;
+      margin-top: 70px;
     }
 
     footer h3{

@@ -331,6 +331,7 @@ footer .copyright {
 
 .about figure img{
   border: 5px solid;
+  border-radius: 100px;
 }
 
 /*PORTFOLIO*/

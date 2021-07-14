@@ -11,693 +11,695 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* GENERAL STYLES */
-html{
-  font-size: 16px;
-}
-
-body{
-  font-family: 'Oswald', sans-serif;
-  font-size: 1em;
-  text-align: left;
-  color: #fff;
-  background: #010101;
-}
-
-ul,
-ol{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a{
-  text-decoration: uppercase;
-}
-
-h1{
-  font-family: 'Teko', sans-serif;
-  font-size: 1.875em;
-  font-weight: lighter;
-  color: #43bdc8;
-}
-
-h3{
-  font-family: 'Teko', sans-serif;
-  font-size: 1.75em;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 20px;
-}
-
-h4{
-  text-transform: uppercase;
-  font-size: 1.375em;
-  margin: 0;
-  text-align: center;
-  font-weight: 400;
-}
-
-h5{
-  font-size: 1.125em;
-  font-weight: lighter;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-p{
-  line-height: 1.285;
-}
-
-img{
-  width: 100%;
-}
-
-figure{
-  margin: 0;
-}
-
-address{
-  font-style: normal;
-}
-
-.content-wrapper {
-  width: 90%;
-  margin: 10px 0;
-}
-
-/* Header & Footer Styles */
-header,
-footer{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-
-header{
-  padding: 10px 0;
-}
-
-header .content-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  margin: 0;
-}
-
-header h1{
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
-}
-
-header nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  width: 85%;
-  font-family: 'Teko', sans-serif;
-  font-size: 1.875em;
-  text-transform: uppercase;
-}
-
-header nav{
-  padding: 10px 0;
-}
-
-header nav ul{
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
- }
-
-header nav ul li a{
-  text-decoration: none;
-  color: #43bdc8;
-}
-
-
-footer{
-  flex-direction: column;
-  text-align: center;
-  background-color: #005e80;
-}
-
-footer h3{
-  padding-top: 20px;
-}
-
-
-footer .content-wrapper{
-  width: 75%;
-  margin: 20px 0;
-}
-
-footer p{
-  margin: 0;
-}
-
-footer .social-icons{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 50px;
-}
-
-footer .social-icons p{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
   }
-
-footer .social-icons p a{
-  color: #005e80;
-}
-
-footer .social-icons p i {
-  font-size: 1.3125em;
-}
-
-.footer h3{
-  margin: 0;
-}
-
-footer .contact {
-  margin: 0px;
-}
-
-footer address a{
-  color: #fff;
-  margin: 0;
-}
-
-footer address p{
-  margin: 0;
-}
-
-footer address p a{
-  text-decoration: none;
-}
-
-footer address i{
-  color: #fff;
-  width: 30px;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-footer .copyright {
-  margin-top: 40px;
-  padding-bottom: 20px;
-}
-
-/*HERO AREA*/
-.hero-area{
-  display: flex;
-  justify-content: center;
-  background: url(../img/background-laptop.jpg);
-  background-size: cover;
-  background-position: cover;
-  min-height: 250px;
-}
-
-.hero-area h2{
-  font-family: 'Teko', sans-serif;
-  font-size: 2.5em;
-  line-height: 1;
-  font-weight: 300;
-}
-
-/*ABOUT*/
-.about{
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  background-color: #005e80;
-  line-height: 1.5;
-  font-size: 1.5em;
-}
-
-.about h3{
-  color: #fff;
-  font-weight: 600;
-}
-
-.about figure img{
-  border: 5px solid;
-  border-radius: 100px;
-}
-
-/*PORTFOLIO*/
-.portfolio{
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Vendor-prefixed and regular ::selection selectors cannot be combined:
+   * https://stackoverflow.com/a/16982510/7133471
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-
-.portfolio article figure{
-  margin: 0;
-  padding: 15px 0;
-}
-
-.portfolio h4{
-  margin-bottom: 5px;
-}
-
-.portfolio h5{
-  margin: 0;
-}
-
-.portfolio figure{
-  margin: 30px 0;
-}
-
-.portfolio figure img{
-  border-radius: 10px;
-}
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-   @media only screen and (min-width: 768px) {
-     /******************TABLET***************/
-.content-wrapper{
-  max-width: 750px;
-  margin: 50px 0;
-}
-
-header{
-  justify-content: space-around;
-  padding: 20px 0;
-}
-
-header h1{
-  width: 45%;
-}
-
-header .content-wrapper{
-  width: 100%;
-  justify-content: space-between;
-}
-
-header nav{
-  width: 45%;
-}
-
-header nav ul{
-  justify-content: space-between;
-}
-
-/*HERO AREA*/
-.hero-area{
-  min-height: 500px;
-}
-
-.hero-area h2{
-  width: 90%;
-  margin: 0;
-  font-size: 4em;
-  line-height: 1;
-  padding-top: 90px;
-  padding-left: 45px;
-}
-
-/*ABOUT*/
-.about article{
-  display: flex;
-  justify-content: space-between;
-}
-
-.about article figure,
-.about article div{
-  width: 45%;
-}
-
-.about article p{
-  margin-top: 0;
-}
-
-/*PORTFOLIO*/
-.portfolio article{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: column wrap;
-  width: 45%;
-  margin-left: 31px;
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
   }
-
-.portfolio article figure{
-  margin-bottom: 30px;
-}
-
-
-.portfolio-projects{
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-}
-
-footer .content-wrapper{
-  margin: 100px 0;
-  width: 65%;
-}
-
-footer .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer .contact{
-  margin-bottom: 0;
-}
-
-footer h3{
-  font-size: 1.5em;
-  margin-bottom: 40px;
-}
-
-
-footer .social-icons{
-  width: 9em;
-  justify-content: space-between;
-}
-
-footer .copyright{
-  width: 100%;
-}
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  
+  /* GENERAL STYLES */
+  html{
+    font-size: 16px;
+  }
+  
+  body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+    background: #010101;
+    scroll-behavior: smooth;
+  }
+  
+  ul,
+  ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a{
+    text-decoration: uppercase;
+  }
+  
+  h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.875em;
+    font-weight: lighter;
+    color: #43bdc8;
+  }
+  
+  h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.75em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  h4{
+    text-transform: uppercase;
+    font-size: 1.375em;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  h5{
+    font-size: 1.125em;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  p{
+    line-height: 1.285;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  figure{
+    margin: 0;
+  }
+  
+  address{
+    font-style: normal;
+  }
+  
+  .content-wrapper {
+    width: 90%;
+    margin: 10px 0;
+  }
+  
+  /* Header & Footer Styles */
+  header,
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  header{
+    padding: 10px 0;
+  }
+  
+  header .content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+  }
+  
+  header h1{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 85%;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.875em;
+    text-transform: uppercase;
+  }
+  
+  header nav{
+    padding: 10px 0;
+  }
+  
+  header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
    }
   
-
-   @media only screen and (min-width: 1200px) {
-    /******************DESKTOP***************/ 
-    header{
-      padding: 15px 0;
-    }
-
-    header nav{
-      width: 40%;
-    }
-
-    h1{
-      display: flex;
-      align-items: flex-start;
-    }
-
-    .content-wrapper{
-      max-width: 960px;
-    }
-
-    h3{
-      font-size: 2.5em;
-    }
-
-    .hero-area{
-      min-height: 600px;
-    }
-
-    .hero-area h2{
-      width: 80%;
-      font-size: 4.5em;
-      margin-top: 70px;
-    }
-
-    footer h3{
-      font-size: 2.5em;
-    }
-
-    footer .copyright{
-      padding-bottom: 20px;
-    }
-
-   }
-
-
-
-
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+  header nav ul li a{
+    text-decoration: none;
+    color: #43bdc8;
   }
-
-  a,
-  a:visited {
-    text-decoration: underline;
+  
+  
+  footer{
+    flex-direction: column;
+    text-align: center;
+    background-color: #005e80;
   }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
+  
+  footer h3{
+    padding-top: 20px;
   }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
+  
+  
+  footer .content-wrapper{
+    width: 75%;
+    margin: 20px 0;
   }
-
+  
+  footer p{
+    margin: 0;
+  }
+  
+  footer .social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  footer .social-icons p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    }
+  
+  footer .social-icons p a{
+    color: #005e80;
+  }
+  
+  footer .social-icons p i {
+    font-size: 1.75em;
+  }
+  
+  .footer h3{
+    margin: 0;
+  }
+  
+  footer .contact {
+    margin: 0px;
+  }
+  
+  footer address a{
+    color: #fff;
+    margin: 0;
+  }
+  
+  footer address p{
+    margin: 0;
+  }
+  
+  footer address p a{
+    text-decoration: none;
+  }
+  
+  footer address i{
+    color: #fff;
+    width: 30px;
+    font-size: 1em;
+    text-decoration: none;
+  }
+  
+  footer .copyright {
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  /*HERO AREA*/
+  .hero-area{
+    display: flex;
+    justify-content: center;
+    background: url(../img/background-laptop.jpg);
+    background-size: cover;
+    background-position: cover;
+    min-height: 250px;
+  }
+  
+  .hero-area h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: 300;
+  }
+  
+  /*ABOUT*/
+  .about{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #005e80;
+    line-height: 1.5;
+    font-size: 1.5em;
+  }
+  
+  .about h3{
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .about figure img{
+    border: 5px solid;
+    border-radius: 100px;
+  }
+  
+  /*PORTFOLIO*/
+  .portfolio{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    }
+  
+  .portfolio article figure{
+    margin: 0;
+    padding: 15px 0;
+  }
+  
+  .portfolio h4{
+    margin-bottom: 5px;
+  }
+  
+  .portfolio h5{
+    margin: 0;
+  }
+  
+  .portfolio figure{
+    margin: 30px 0;
+  }
+  
+  .portfolio figure img{
+    border-radius: 10px;
+  }
+  
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+  
   /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
+   * Hide visually and from screen readers
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
   }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
+  
   /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
    */
-  thead {
-    display: table-header-group;
+  
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
   }
-
-  tr,
-  img {
-    page-break-inside: avoid;
+  
+  /*
+   * Extends the .sr-only class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
   }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+    visibility: hidden;
   }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: " ";
+    display: table;
   }
-}
-
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+     @media only screen and (min-width: 768px) {
+       /******************TABLET***************/
+  .content-wrapper{
+    max-width: 750px;
+    margin: 50px 0;
+  }
+  
+  header{
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  
+  header h1{
+    width: 45%;
+  }
+  
+  header .content-wrapper{
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  header nav{
+    width: 45%;
+  }
+  
+  header nav ul{
+    justify-content: space-between;
+  }
+  
+  /*HERO AREA*/
+  .hero-area{
+    min-height: 500px;
+  }
+  
+  .hero-area h2{
+    width: 90%;
+    margin: 0;
+    font-size: 4em;
+    line-height: 1;
+    padding-top: 90px;
+    padding-left: 45px;
+  }
+  
+  /*ABOUT*/
+  .about article{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about article figure,
+  .about article div{
+    width: 45%;
+  }
+  
+  .about article p{
+    margin-top: 0;
+  }
+  
+  /*PORTFOLIO*/
+  .portfolio article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 45%;
+    margin-left: 31px;
+    }
+  
+  .portfolio article figure{
+    margin-bottom: 30px;
+  }
+  
+  
+  .portfolio-projects{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  
+  footer .content-wrapper{
+    margin: 100px 0;
+    width: 65%;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .contact{
+    margin-bottom: 0;
+  }
+  
+  footer h3{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  
+  
+  footer .social-icons{
+    width: 9em;
+    justify-content: space-between;
+  }
+  
+  footer .copyright{
+    width: 100%;
+  }
+     }
+    
+  
+     @media only screen and (min-width: 1200px) {
+      /******************DESKTOP***************/ 
+      header{
+        padding: 15px 0;
+      }
+  
+      header nav{
+        width: 40%;
+      }
+  
+      h1{
+        display: flex;
+        align-items: flex-start;
+      }
+  
+      .content-wrapper{
+        max-width: 960px;
+      }
+  
+      h3{
+        font-size: 2.5em;
+      }
+  
+      .hero-area{
+        min-height: 600px;
+      }
+  
+      .hero-area h2{
+        width: 80%;
+        font-size: 4.5em;
+        margin-top: 70px;
+      }
+  
+      footer h3{
+        font-size: 2.5em;
+      }
+  
+      footer .copyright{
+        padding-bottom: 20px;
+      }
+  
+     }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  /* ==========================================================================
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
+  
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+      display: table-header-group;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  }
+  
+  
